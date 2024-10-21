@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewpoort" content="width=device-width,initial-scale-1.0">
+        <title>Landing page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      tr:nth-child(even){background-color: #f2f2f2}
+      
+      th {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+
+      }
+      </style>
+        <nav>
+            <ul>
+                <li><a href="index.html">Casa</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="github.html">GitHub</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="dados lead.html">Contato</a></li>
+            </ul>
+        </nav>
+        <table>
+            <thead>
+              <tr>
+                <th>Serviço</th>
+                <th>preços</th>
+                <th>ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Criação de páginas dinâmicas</td>
+                <td>R$500,00</td>
+                <td><button>escolher</button></td>
+            </tr>
+              <tr>
+                <td>páginas avançadas</td>
+                <td>R$1000,00</td>
+                <td><button  onclick="showForm('form1')">escolher</button></td>
+              </tr>
+              <tr>
+                <td>páginas avançadas</td>
+                <td>R$1000,00</td>
+                <td><button  onclick="showForm('form1')">escolher</button></td>
+              </tr>
+              <tr>
+                <td>páginas avançadas</td>
+                <td>R$1000,00</td>
+                <td><button  onclick="showForm('form1')">escolher</button></td>
+              </tr>
+              <tr>
+                <td>páginas avançadas</td>
+                <td>R$1000,00</td>
+                <td><button  onclick="showForm('form1')">escolher</button></td>
+              </tr>
+              <tr>
+                <td>páginas avançadas</td>
+                <td>R$1000,00</td>
+                <td><button  onclick="showForm('form1')">escolher</button></td>
+              </tr>
+              </tbody>
+          </table>
+          <div id="form1" class="serviceForm" style="display: none;">
+            <form>
+              <input type="text" name="nome" placeholder="Seu nome">
+              <button type="submit">Enviar</button>
+            </form>
+    </header>
+</html>
